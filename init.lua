@@ -4,7 +4,8 @@ require("config.settings")
 -- keymaps
 require("config.keymaps")
 
--- colour scheme
+-- health check
+require("config.health")
 
 -- lazy
 require("config.lazy")
