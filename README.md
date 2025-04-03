@@ -68,8 +68,13 @@ too - it's ignored in the kickstart repo to make maintenance easier, but it's
 
 <details><summary> Linux and Mac </summary>
 
+With HTTPS
 ```sh
 git clone https://github.com/zongqi-wang/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+```
+With SSH
+```sh
+git clone git@github.com:zongqi-wang/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
 </details>
